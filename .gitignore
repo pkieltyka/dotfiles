@@ -1,0 +1,4 @@
+nixpkgs/*/source
+nixpkgs/*/result
+machine.nix
+bin/*
