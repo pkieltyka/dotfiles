@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+if [ -t 0 ]; then
+  docker exec -it postgresql psql "$@"
+else
+  docker exec -i postgresql psql "$@"
+fi
+

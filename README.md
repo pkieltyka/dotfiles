@@ -20,7 +20,9 @@ system level config in `configuration.nix`, user-level config in `nixpkgs/home.n
 
 6. home-manager, add the channel, etc.. nix-channel --update
 
-7. ln -s /home/peter/.dotfiles/.bin /home/peter/.bin
+7. ln -s /home/peter/.dotfiles/bin /home/peter/.bin
+
+7. ln -s /home/peter/.dotfiles/scripts /home/peter/.scripts
 
 8. we need i3-powertools.. should be a nixpkg ..
 

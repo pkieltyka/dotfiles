@@ -28,7 +28,7 @@ let secrets = import /etc/nixos/secrets.nix; in
 
     #ulimit -n 10000
 
-    export PATH=$PATH:$HOME/.bin:$HOME/.local/bin
+    export PATH=$PATH:$HOME/.bin:$HOME/.scripts:$HOME/.local/bin
 
     # Node
     #export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).

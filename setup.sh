@@ -25,5 +25,5 @@ if [[ ! -f $(realpath ~/.dotfiles/machine.nix) ]]; then
 fi
 
 # Setup home user paths
-if [[ ! -d $(realpath ~/.bin) ]]; then ln -s  $(realpath ./.bin) $(realpath ~/.bin); fi
+if [[ ! -d $(realpath ~/.bin) ]]; then ln -s  $(realpath ./bin) $(realpath ~/.bin); fi
 if [[ ! -d $(realpath ~/.config/nixpkgs) ]]; then ln -s $(realpath ./nixpkgs) $(realpath ~/.config/nixpkgs); fi

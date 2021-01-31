@@ -210,8 +210,8 @@ in
       "${mod}+bracketright" = "workspace next";
       "${mod}+bracketleft" = "workspace prev";
 
-      "${mod}+l" = "exec ~/.bin/screenlock";
-      "${mod}+Shift+l" = "exec ~/.bin/screenoff";
+      "${mod}+l" = "exec ~/.scripts/screenlock";
+      "${mod}+Shift+l" = "exec ~/.scripts/screenoff";
 
       "${mod}+r" = "mode resize";
 
@@ -222,7 +222,7 @@ in
       "${mod}+Shift+e" = "exec \"i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'\"";
 
       # pick a new wallpaper
-      "${mod}+Shift+w" = "exec ~/.bin/set-wallpaper.sh";
+      "${mod}+Shift+w" = "exec ~/.scripts/set-wallpaper.sh";
 
       #
       "${mod}+semicolon" = "move scratchpad";
@@ -341,7 +341,7 @@ in
       { command = "nm-applet"; notification = false; }
 
       # wallpaper
-      { command = "~/.bin/set-wallpaper.sh"; notification = false; }
+      { command = "~/.scripts/set-wallpaper.sh"; notification = false; }
 
       # unclutter makes the mouse invisible after a brief period
       { command = "unclutter"; notification = false; }
